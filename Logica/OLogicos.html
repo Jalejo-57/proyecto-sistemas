@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estiloslogica.css">
+    <title>Operadores lógicos</title>
+</head>
+<body>
+    <p class="top-space"></p>
+    <br>
+    <h1 id="titulo">Operadores lógicos</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+        <div class="container">
+            <a href="../index.html"><img src="../img/smart-home.png" alt="Inicio" width="60px" class="navbar-brand"></a>
+            <ul class="navbar-nav">
+                <p id="p-nav">Ir a:</p>
+                <li class="nav-item">
+                    <a href="#destino1" class="nav-link"> ¿Cuáles son?</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <p class="top-space"></p>
+    <section class="container">
+        <div class="row">
+          <div class="col">
+            <div class="h-100 p-5 bg-light border rounded-5">
+              <h1 class="display-5 fw-bold">¿Qué son?</h1>
+                <p class="fs-4">
+                    Operadores lógicos. Muy utilizados en Informática, Lógica proposicional y Álgebra booleana, entre otras disciplinas. Los operadores lógicos nos proporcionan un resultado a partir de que se cumpla o no una cierta condición, producen un resultado booleano, y sus operandos son también valores lógicos o asimilables a ellos (los valores numéricos son asimilados a cierto o falso según su valor sea cero o distinto de cero). 
+                    <br>
+                    Esto genera una serie de valores que, en los casos más sencillos, pueden ser parametrizados con los valores numéricos 0 y 1. La combinación de dos o más operadores lógicos conforma una función lógica.
+                </p>
+                <!--
+                <center>
+                    <img src="../img/logica27.jpg" alt="" width="500">
+                </center>
+                -->
+            </div> <!--END JUMBOTRON-->
+          </div>
+          <p id="destino1"></p>
+          <br>
+          <p class="top-space"></p>
+          <h3 class="display-5" id="TC">¿Cuales son?</h3>
+          <p class="fs-4">
+            Los operadores lógicos son tres; dos de ellos son binarios, el último (negación) es unario.
+            <ul class="fs-4">
+                <li>
+                    Y lógico && AND. 
+                    <p>El primer operando (de la izquierda) es convertido a bool. Para ello, si es una expresión, se evalúa para obtener el resultado (esta computación puede tener ciertos efectos laterales). A continuación, el valor obtenido es convertido a bool cierto/falso siguiendo las reglas de conversión estándar.</p>
+                    <p>Si el resultado es false, el proceso se detiene y este es el resultado, sin que en este caso sea necesario evaluar la expresión de la derecha (recuérdese que en el diseño de C++ prima la velocidad).</p>
+                </li>
+                <li>
+                    O lógico || OR
+                    <p>Este operador sigue un funcionamiento análogo al anterior. El primer operando (izquierdo) es convertido a bool. Para ello, si es una expresión, se evalúa para obtener el resultado (esta computación puede tener ciertos efectos laterales). A continuación el valor obtenido es convertido a bool cierto/falso siguiendo las reglas de conversión estándar. </p>
+                    <p>Si el resultado es true, el proceso se detiene y este es el resultado, sin que en este caso sea necesario evaluar la expresión de la derecha (recuérdese que en el diseño de C++ prima la velocidad).</p>
+                </li>
+                <li>
+                    Negación lógica ! NOT
+                    <p>El operando expresion-cast (que puede ser una expresión que se evalúa a un resultado es convertido a tipo bool), con lo que solo puede ser uno de los valores cierto/falso. A continuación el operador cambia su valor: Si es cierto es convertido a falso y viceversa.</p>
+                    <p>Resulta por tanto, que el resultado de este operador es siempre un tipo bool, aunque al existir una conversión estándar por la que un cero es convertido a false, y cualquier valor distinto de cero a true, coloquialmente se dice que este operador convierte un operando 0 en 1 y uno no-cero en 0. En otras palabras: este operador devuelve cierto (true) si la expresión se evalúa a distinto de cero, en caso contrario devuelve falso (false).</p>
+                </li>
+            </ul>
+            <br>
+            <br>
+            <p class="fs-4">
+            Tienen una doble posibilidad de representación en el estándar C++ actual: la representación tradicional que se indica a continuación, y la natural introducida recientemente que se detalla más adelante.
+            </p>
+        </div>
+    </section>  
+
+      <!--Botón para ir arriba-->
+    <p class="top-space"></p>
+    <p class="top-space"></p>
+    <center>
+        <p><a href="#top" id="arriba">Ir arriba</a></p>
+        <br>
+        <p><a href="SParcial.html" id="arriba">Regresar</a></p>
+    </center>
+    <!--Fin del botón de ir arriba-->   
+
+    <!--El footer siempre deberá estar hasta abajo-->
+    <!--Inicio del footer-->
+    <p class="top-space"></p>
+    <footer id="container-footer">
+        <div class="container">
+            <div class="row" id="row-footer">
+                <center><h3 id="color-footer">Datos del grupo</h3></center>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: David Giovanni García Yoc </p>
+                    <p id="text-p">Carnet: 5090-23-1554</p>
+                    <p id="text-p">correo: dgarciay5@miumg.edu.gt</p>
+                    <center><img src="../img/david.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Yordy Misael Carreto López </p>
+                    <p id="text-p">Carnet: 5090-23-2903</p>
+                    <p id="text-p">correo: ycarretol1@miumg.edu.gt</p>
+                    <center><img src="../img/yordy.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Diego Andrés Ardón Morales </p>
+                    <p id="text-p">Carnet: 5090-23-3728</p>
+                    <p id="text-p">correo: dardonm@miumg.edu.gt</p>
+                    <center><img src="../img/diego.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Jeferson Alejandro Ailón Aguilar </p>
+                    <p id="text-p">Carnet: 5090-23-1070</p>
+                    <p id="text-p">correo: jailona2@miumg.edu.gt</p>
+                    <center><img src="../img/alejandro.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Dylan Efraín Reyes Barrera </p>
+                    <p id="text-p">Carnet: 5090-23-1228</p>
+                    <p id="text-p">correo: dreyesb7@miumg.edu.gt</p>
+                    <center><img src="../img/dylan.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+            </div>
+            <center>
+                <br>
+            <div class="col-md-3" >
+                <a href="https://umg.edu.gt/?from=edurank.org" target="_blank"><img src="../img/logoumg.webp" alt="Universidad Mariano Gálvez"></a>
+            </div>  
+            </center>
+        </div>
+    </footer>
+
+      <link rel="stylesheet" href="../js/bootstrap.bundle.min.js">
+</body>
+</html>

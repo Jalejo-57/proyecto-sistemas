@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estiloslogica.css">
+    <title>Operaciones entre conjuntos</title>
+</head>
+<body>
+    <p class="top-space"></p>
+    <br>
+    <h1 id="titulo">Operaciones</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+        <div class="container">
+            <a href="../index.html"><img src="../img/smart-home.png" alt="Inicio" width="60px" class="navbar-brand"></a>
+            <ul class="navbar-nav">
+                <p id="p-nav">Ir a:</p>
+                <li class="nav-item">
+                    <a href="#destino1" class="nav-link"> Intersección de conjuntos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#destino2" class="nav-link">Diferencia de conjuntos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <h3 class="display-5" >Dos conjuntos</h3>
+                <p>
+                    Además de relacionar los conjuntos a través de la contenencia y la igualdad, podemos crear unos nuevos a través de las operaciones entre conjuntos.  Aquí aprenderás de que se trata.
+                    <br>
+                    <br>
+                    <img src="../img/logica16.jpg" width="400">
+                </p>
+            </div>
+            <div class="col-6">
+                <h3 class="display-6">Unión  <small class="text-muted">de conjuntos</small></h3> <!--Texto secundario-->
+                <p>
+                    Supongamos que tenemos los conjuntos M y N definidos como se muestra en la siguiente figura:
+                    <br>
+                    <img src="../img/logica21.jpg" alt="">
+                </p>
+                <p>
+                    Podemos crear otro conjunto conformado con los elementos que pertenezcan a M o a N.  A este nuevo conjunto le llamamos unión de M y N, y lo notamos de la siguiente manera: MUN.  En la imagen de abajo puedes observar el resultado de unir los conjuntos M y N.
+                </p>
+            </div>
+            <center>
+                <div class="col-6">
+                    <h3 class="display-6">Explicación <small class="text-muted">del ejemplo</small></h3> <!--Texto secundario-->
+                    <p>
+                        Al elegir qué elementos estarán en la unión de nuestros conjuntos  y , debes preguntarte cuáles están en el conjunto  “o” en el conjunto .  El resultado de la operación será el conjunto conformado por todos los elementos del conjunto universal , que cumplan la condición de estar en uno o en otro.
+                        <br>
+                        <br>
+                        <img src="../img/logica22.jpg" alt="">
+                    </p>
+                    <br>
+                </div>
+            </center>
+        </div>
+    </div>
+
+    <p id="destino1"></p>
+    <p class="top-space"></p>
+    <section class="container">
+        <div class="row">
+          <div class="col">
+            <div class="h-100 p-5 bg-light border rounded-5" >
+              <h1 class="display-5 fw-bold" id="titulo1">Intersección de Conjuntos</h1>
+                <p class="fs-4">
+                    Sigamos tomando como ejemplo los conjuntos M y N definidos anteriormente.  Podemos determinar un nuevo conjunto conformado por los elementos que nuestros conjuntos M y N tienen en común.  A este nuevo conjunto le llamamos intersección de M y N, y lo notamos de la siguiente manera: MAN.
+                </p>
+                <center>
+                <img src="../img/logica23.jpg" alt="Silogismo" width="550px">
+                </center>
+                <p id="destino2"></p>
+                <p class="top-space"></p>
+                <br>
+                <h3 id="TC">Diferencia de conjuntos</h3>
+                <p class="fs-4">
+                    En este caso se deben seleccionar los elementos de un conjunto que no estén en el otro.  Por ejemplo, si realizas la operación M menos N, debes seleccionar los elementos de M que no están en N.  Representamos la diferencia M menos N así: M\N.  Observa que en este caso M\N = {a, c}.
+                    <p class="top-space"></p>
+                    <center>
+                        <img src="../img/logica24.jpg" alt="">
+                    </center>
+                </p>
+            </div> <!--END JUMBOTRON-->
+          </div>
+        </div>
+      </section>  
+  
+      
+
+    <!--Botón para ir arriba-->
+    <p class="top-space"></p>
+    <p class="top-space"></p>
+    <center>
+        <p><a href="#top" id="arriba">Ir arriba</a></p>
+        <br>
+        <p><a href="PParcial.html" id="arriba">Regresar</a></p>
+    </center>
+    <!--Fin del botón de ir arriba-->   
+
+    <!--El footer siempre deberá estar hasta abajo-->
+    <!--Inicio del footer-->
+    <p class="top-space"></p>
+    <footer id="container-footer">
+        <div class="container">
+            <div class="row" id="row-footer">
+                <center><h3 id="color-footer">Datos del grupo</h3></center>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: David Giovanni García Yoc </p>
+                    <p id="text-p">Carnet: 5090-23-1554</p>
+                    <p id="text-p">correo: dgarciay5@miumg.edu.gt</p>
+                    <center><img src="../img/david.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Yordy Misael Carreto López </p>
+                    <p id="text-p">Carnet: 5090-23-2903</p>
+                    <p id="text-p">correo: ycarretol1@miumg.edu.gt</p>
+                    <center><img src="../img/yordy.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Diego Andrés Ardón Morales </p>
+                    <p id="text-p">Carnet: 5090-23-3728</p>
+                    <p id="text-p">correo: dardonm@miumg.edu.gt</p>
+                    <center><img src="../img/diego.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Jeferson Alejandro Ailón Aguilar </p>
+                    <p id="text-p">Carnet: 5090-23-1070</p>
+                    <p id="text-p">correo: jailona2@miumg.edu.gt</p>
+                    <center><img src="../img/alejandro.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Dylan Efraín Reyes Barrera </p>
+                    <p id="text-p">Carnet: 5090-23-1228</p>
+                    <p id="text-p">correo: dreyesb7@miumg.edu.gt</p>
+                    <center><img src="../img/dylan.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+            </div>
+            <center>
+                <br>
+            <div class="col-md-3" >
+                <a href="https://umg.edu.gt/?from=edurank.org" target="_blank"><img src="../img/logoumg.webp" alt="Universidad Mariano Gálvez"></a>
+            </div>  
+            </center>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="../js/bootstrap.bundle.min.js">
+</body>
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estiloslogica.css">
+    <title>Primer Parcial</title>
+</head>
+<body>
+    <p class="top-space"></p>
+    <br>
+    <h1 id="titulo">Introducción a la Lógica</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+        <div class="container">
+            <a href="../index.html"><img src="../img/smart-home.png" alt="Inicio" width="60px" class="navbar-brand"></a>
+            <ul class="navbar-nav">
+                <p id="p-nav">Ir a:</p>
+                <li class="nav-item">
+                    <a href="#destino1" class="nav-link"> Silogismos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#destino2" class="nav-link"> Teoría de conjuntos</a>
+                </li>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <h3 class="display-5" >¿Lógica?</h3>
+                <p>
+                    La lógica es la ciencia del razonamiento. En general, se considera que la lógica tiene su origen en la filosofía y su aplicación en las matemáticas. Sin embargo, se considera a la lógica como una ciencia independiente, en tanto su origen se dio en paralelo al de la filosofía y no como una consecuencia directa de ella.
+                    <br>
+                    <br>
+                    Quienes se dedican a la lógica estudian razonamientos llamados “argumentos” o “esquemas de argumentos”. Su tarea consiste en descubrir qué hace que un argumento válido sea válido. Según a qué rama de la lógica se dediquen, así será el contenido de los distintos argumentos. La lógica trabaja con conceptos, definiciones, proposiciones y argumentaciones formales. Todos ellos se dan en función de determinar la validez de cada uno de los argumentos tratados.
+                </p>
+            </div>
+            <div class="col-6">
+                <h3 class="display-6">La lógica <small class="text-muted">División</small></h3> <!--Texto secundario-->
+                <p>
+                    En general, se puede dividir a la lógica en lógica formal y lógica informal. La lógica formal, por su parte, trabaja con sistemas de lógica proposicional (que opera sobre proposiciones), lógica de primer orden (que opera sobre predicados) y lógica modal (que opera sobre los valores de verdad).
+                </p>
+                <br>
+                <img src="../img/logica2.png" alt="Logica de Sistemas" width="600px" height="250px">
+            </div>
+            <div class="col-6">
+                <h3 class="display-6">Etimología <small class="text-muted">"Lógica"</small></h3> <!--Texto secundario-->
+                <p>
+                    La palabra “lógica” tiene su origen en la voz griega logiké (“dotada de razón”), proveniente del término logos, que equivale a “palabra” o “pensamiento”.
+                    <br>
+                    Sin embargo, en el lenguaje cotidiano empleamos esta palabra como sinónimo de “sentido común”. También se emplea como un sinónimo de “forma de pensar”, como al referirnos a la “lógica deportiva”, “lógica militar”, etc.
+                </p>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <!--Botón para desplegar subtemas-->
+    <div class="despegable" id="botonDesp">
+        <button class="boton">Ver Sub temas</button>
+        <div class="links">
+            <a href="./defLogica.html">Definición de lógica</a>
+            <a href="./TRazonamiento.html">Tipos de razonamiento</a>
+        </div>
+    </div>
+
+    <p id="destino1"></p>
+    <p class="top-space"></p>
+    <br>
+
+    <section class="container">
+        <div class="row">
+          <div class="col">
+            <div class="h-100 p-5 bg-light border rounded-5" >
+              <h1 class="display-5 fw-bold" id="titulo1">Silogismos</h1>
+                <p class="fs-4">
+                    En lógica, un silogismo es un método de razonamiento, tanto inductivo como deductivo. Su nombre proviene del griego syllogismós y fue estudiado por la filosofía de la antigüedad griega, especialmente por Aristóteles (384-322 a. C.), quien fuera el primero en formularlo.
+                  <br>
+                  <br>
+                  Se trata de un método fijo de razonamiento lógico que consta de tres partes: dos premisas y una conclusión, esta última obtenida a raíz de las dos primeras.
+                  <br>
+                  <br>
+                  Todo silogismo pone en relación dos partes mediante juicios, o sea, de su comparación. Al primero, Aristóteles llamaba premisa mayor, al segundo premisa menor y a la conclusión consecuente. Dichas partes suelen ser entendidas como proposiciones, susceptibles de tener un valor verdadero (V) o falso (F).
+                  La lógica silogística o de silogismos es abundantemente practicada en la lógica proposicional, dentro de estudios matemáticos o informáticos, y también dentro del estudio de la filosofía.
+                </p>
+                <center>
+                <img src="../img/logica3.webp" alt="Silogismo" width="550px">
+                </center>
+            </div> <!--END JUMBOTRON-->
+          </div>
+        </div>
+      </section>  
+  
+      <section class="container">
+        <p class="top-space"></p>
+        <h3 class="display-5">Estructura del silogismo</h3>
+        <p class="fs-4">
+            Como dijimos antes, la estructura del silogismo es fija, sin importar el asunto que abordan o la naturaleza de sus premisas, y consta de estos elementos:
+          <br>
+        </p>
+        <ul class="fs-4">
+            <li><b>Una premisa mayor:</b> equivalente a un predicado de la conclusión (P)</li>
+            <li><b>Una premisa menor:</b> equivalente a un sujeto de la conclusión (S)</li>
+            <li><b>Un término medio:</b> con el que la Premisa Mayor y la Premisa Menor se comparan</li>
+            <li><b>Un consecuente o conclusión</b> al que se llega afirmando o negando la relación entre P y S</li>
+        </ul>
+        <p class="fs-4">
+            Estos términos se relacionaron entre sí por jucios, que pueden ser de una naturaleza determinada, dependiendo del tipo de afirmaciones que hagan
+        </p>
+        <ul class="fs-4">
+            <li><b>Universales:</b> Sostienen que una propiedad atañe a la totalidad de los elementos, es decir: <mark>todo S es P</mark></li>
+            <li><b>Particulares: </b> por el contrario, extienden una propiedad sobre algunos elementos de una totalidad mayor, es decir: <mark>algunos S son P</mark> </li>
+            <li><b>Afirmativos: </b>también llamados de unión, proponen una relación de equivalencia entre los términos: <mark>S es P</mark> </li>
+            <li><b>Negativos: </b>también llamados de separación, proponen todo lo contrario a los anteriores: <mark>S no es P</mark> </li>
+        </ul>
+        <center>
+            <img src="../img/logica4.jpg" alt="Estructura" width="600px">
+        </center>
+      </div>
+    </section>
+
+    <!--Botón para desplegar los subtemas-->
+    <div class="despegable" id="botonDesp">
+        <button class="boton">Ver Sub temas</button>
+        <div class="links">
+            <a href="./PValidez.html">Pruebas de validez</a>
+        </div>
+    </div>
+
+    <p id="destino2"></p>
+    <p class="top-space"></p>
+    <br>
+    <h1 id="titulo">Teoría de Conjuntos</h1>
+    <section class="container">
+        <p class="top-space"></p>
+        <h3 class="display-5" id="TC">Teoría básica de conjuntos</h3>
+        <p class="fs-4">
+            <br>
+            La teoría de conjuntos es una rama de la lógica-matemática que se encarga del estudio de las relaciones entre entidades denominadas conjuntos. Los conjuntos se caracterizan por ser colecciones de objetos de una misma naturaleza. Dichos objetos son los elementos del conjunto y pueden ser: números, letras, figuras geométricas, palabras que representan objetos, los objetos mismos y otros.
+            <br>
+            <br>
+            Fue Georg Cantor, hacia finales del siglo XIX, quien propuso la teoría de conjuntos. Mientras que otros notables matemáticos en el siglo XX hicieron su formalización: Gottlob Frege, Ernst Zermelo, Bertrand Russell, Adolf Fraenkel entre otros.
+            <br>
+            Los diagramas de Venn son la forma gráfica de representar a un conjunto, y consiste en una figura plana cerrada dentro de la cual están los elementos del conjunto.
+            <br>
+            <br>
+            Por ejemplo en la figura 1 se muestran dos conjuntos A y B, los cuales tiene elementos en común, los elementos comunes a A y a B. Estos forman un nuevo conjunto que se llama el conjunto intersección de A y B.
+        </p>
+        <center>
+        <img src="../img/logica5.jpg"  height="340">
+        </center>
+        <p class="top-space"></p>
+        <h3 class="display-5" id="TC">Relación de pertenencia</h3>
+        <p class="fs-4">
+            Revisadas estas definiciones será mucho más sencillo comprender la terminología a la que se hará referencia a la hora de abordar el tema de la Pertenencia dentro de los conjuntos, la cual a su vez es vista por las distintas fuentes teóricas como <mark> la relación más básica que puede existir entre un elemento y su conjunto.</mark>
+            <br>
+            <br>
+            Viene representada por el símbolo de pertenencia, el cual cuanta con la forma ∈, y que básicamente es usado para señalar que un elemento pertenece a un conjunto determinado. La forma de expresión de esta relación entre elemento y conjunto puede responder a la siguiente:
+            <center><p class="fs-1">x ∈ A</p></center>
+        </p>
+        <h3 class="display-9">Ejemplo de pertenencia</h3>
+        <p class="fs-4">
+            Sin embargo, quizás la forma más eficiente de explicar la Relación de Pertenencia sea a través de la exposición de un ejemplo en concreto, que venga a demostrar en la práctica lo que dice la teoría. A continuación, entonces, un ejemplo de este tipo de relación:
+        </p>
+        <center>
+        <div class="container" id="ContainerOver">
+            <div class="caja">
+                <p>
+                    Suponiendo que se establezca un conjunto en base a colores cálidos, cuyo nombre haya sido decidido como Conjunto C, se puede tener la siguiente colección:
+                    <br>
+                    <br>
+                    C = {Naranja, Rojo, Rojo-naranja, Amarillo, Rojo-amarillo, marrón…}
+                    <br>
+                    <br>
+                    Se pueden establecer relaciones de pertenencia entre cada uno de los elementos que se pueden ver dentro del Conjunto, y éste, las cuales podrán ser expresadas entonces de la siguiente manera:
+                    <br>
+                    <br>
+                    Naranja ∈ C
+                    <br>
+                    Rojo ∈ C
+                    <br>
+                    Rojo-naranja ∈ C
+                    <br>
+                    Amarillo ∈ C
+                    <br>
+                    Rojo-amarillo ∈ C
+                    <br>
+                    Marrón ∈ C
+                </p>
+
+            </div>
+        </div>
+        </center>
+        <h3 class="display-9">Ejemplo de NO pertenencia</h3>
+        <p class="fs-4">
+            Así mismo, se puede hablar también de la No pertenencia, la cual puede ser definida a su vez como la relación -por negación- que se establece entre un elemento y el conjunto al que no pertenece. En este caso, el signo que sirve para representar esta relación, será ∉ y será leído como “no pertenece”. 
+            <br>
+            Igualmente, a la hora de expresar este tipo de relación entre un elemento y un conjunto, se nombrarán aquellos elementos que no corresponden al criterio de agrupación en base al cual se ha constituido la colección. Un ejemplo de ello, puede ser el siguiente:
+        </p>
+        <center>
+        <div class="container" id="ContainerOver">
+            <div class="caja">
+                <br>
+                <p>
+                    Imaginando un conjunto D conformado por las frutas que pueden considerarse cítricas, se tendría entonces la siguiente lista de elementos:
+                    <br>
+                    <br>
+                    D= {Naranja, Limón, Mandarina, Pomelo, Toronja, Lima}
+                    <br>
+                    <br>
+                    Se pueden nombrar algunos otros elementos que se consideran no pertenecientes a este conjunto, por ejemplo:
+                    <br>
+                    <br>
+                    Patilla ∉ D
+                    <br>
+                    Nispero ∉ D
+                    <br>
+                    Banana ∉ D
+                    <br>
+                    Melocotón ∉ D
+                    <br>
+                    Aguacate ∉ D
+                    <br>
+                    Cacao ∉ D
+                </p>
+
+            </div>
+        </div>
+    </center>
+
+    <p class="top-space"></p>
+    <h3 class="display-5" id="TC">Representación de conjuntos</h3>
+    <h5 class="display-9">Diagrama de Venn</h5>
+    <p class="fs-4">
+        Es habitual representar los conjuntos en forma gráfica mediante los Diagramas de Venn .
+        <br>
+        En estos diagramas el conjunto se representa mediante una superficie limitada por una línea. En su interior se colocan los elementos del conjunto. Cada porción del plano limitada se nombra con una letra mayúscula.
+    </p>
+    <center><img src="../img/logica6.jpg" alt="Venn"></center>
+    <br><br>
+    <h5 class="display-9">Por llaves</h5>
+    <p class="fs-4">
+        El conjunto A está formado por los elementos 1, 2, 3.
+        El conjunto B está formado por los elementos a, b, c, d.
+        Existe, además, otra forma de representarlos que es entre llaves.
+        En estos ejemplos se escribe:
+        <br>
+        A = {1, 2, 3}
+        <br>
+        B = {a, b, c, d}
+        <br>
+        Otro ejemplo:
+    </p>
+    <center><img src="../img/logica7.jpg" alt=""></center>
+    </section>
+
+    <!-- Botón para desplegar subtemas-->
+    <p class="top-space"></p>
+    <div class="despegable" id="botonDesp">
+        <button class="boton">Ver Sub temas</button>
+        <div class="links">
+            <a href="./IEConjuntos.html">Igualdad entre conjuntos</a>
+            <a href="./OConjuntos.html">Operaciones con conjuntos</a>
+        </div>
+    </div>
+
+
+    <!--Botón para ir arriba-->
+    <p class="top-space"></p>
+    <p class="top-space"></p>
+    <center>
+        <p><a href="#top" id="arriba">Ir arriba</a></p>
+        <br>
+        <p><a href="indexlogica.html" id="arriba">Regresar</a></p>
+    </center>
+    <!--Fin del botón de ir arriba-->      
+
+    <!--El footer siempre deberá estar hasta abajo-->
+    <!--Inicio del footer-->
+    <p class="top-space"></p>
+    <footer id="container-footer">
+        <div class="container">
+            <div class="row" id="row-footer">
+                <center><h3 id="color-footer">Datos del grupo</h3></center>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: David Giovanni García Yoc </p>
+                    <p id="text-p">Carnet: 5090-23-1554</p>
+                    <p id="text-p">correo: dgarciay5@miumg.edu.gt</p>
+                    <center><img src="../img/david.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Yordy Misael Carreto López </p>
+                    <p id="text-p">Carnet: 5090-23-2903</p>
+                    <p id="text-p">correo: ycarretol1@miumg.edu.gt</p>
+                    <center><img src="../img/yordy.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Diego Andrés Ardón Morales </p>
+                    <p id="text-p">Carnet: 5090-23-3728</p>
+                    <p id="text-p">correo: dardonm@miumg.edu.gt</p>
+                    <center><img src="../img/diego.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Jeferson Alejandro Ailón Aguilar </p>
+                    <p id="text-p">Carnet: 5090-23-1070</p>
+                    <p id="text-p">correo: jailona2@miumg.edu.gt</p>
+                    <center><img src="../img/alejandro.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Dylan Efraín Reyes Barrera </p>
+                    <p id="text-p">Carnet: 5090-23-1228</p>
+                    <p id="text-p">correo: dreyesb7@miumg.edu.gt</p>
+                    <center><img src="../img/dylan.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+            </div>
+            <center>
+                <br>
+            <div class="col-md-3" >
+                <a href="https://umg.edu.gt/?from=edurank.org" target="_blank"><img src="../img/logoumg.webp" alt="Universidad Mariano Gálvez"></a>
+            </div>  
+            </center>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="../js/bootstrap.bundle.min.js">
+</body>
+</html>

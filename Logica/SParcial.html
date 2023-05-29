@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estiloslogica.css">
+    <title>Segundo Parcial</title>
+</head>
+<body>
+    <p class="top-space"></p>
+    <br>
+    <h1 id="titulo">Lógica proposicional</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+        <div class="container">
+            <a href="../index.html"><img src="../img/smart-home.png" alt="Inicio" width="60px" class="navbar-brand"></a>
+            <ul class="navbar-nav">
+                <p id="p-nav">Ir a:</p>
+                <li class="nav-item">
+                    <a href="#destino1" class="nav-link"> Deducción natural</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <p class="top-space"></p>
+    <section class="container">
+        <div class="row">
+          <div class="col">
+            <div class="h-100 p-5 bg-light border rounded-5">
+              <h1 class="display-5 fw-bold">Introducción</h1>
+                <p class="fs-4">
+                    La lógica proposicional, también llamada lógica de enunciados, lógica de orden cero o cálculo proposicional, es un sistema formal cuyos elementos más simples representan proposiciones o enunciados, y cuyas constantes lógicas, llamadas conectivas lógicas, representan operaciones sobre proposiciones, capaces de formar otras proposiciones de mayor complejidad.
+                    <br>
+                    Las lógicas proposicionales carecen de cuantificadores o variables de individuo, pero tienen variables proposicionales (es decir, que se pueden interpretar como proposiciones con un valor de verdad definido), de ahí el nombre proposicional. Los sistemas de lógica proposicional incluyen además conectivas lógicas, por lo que dentro de este tipo de lógica se puede analizar la inferencia lógica de proposiciones a partir de proposiciones, pero sin tener en cuenta la estructura interna de las proposiciones más simples.
+                    <br>
+                    <br>
+                    Como las lógicas proposicionales no tienen cuantificadores o variables de individuo, cualquier secuencia de signos que constituya una fórmula bien formada admite una valoración en la proposición es verdadera o falsa dependiendo del valor de verdad asignado a las proposiciones que la compongan. Esto implica que cualquier fórmula bien formada define una función proposicional.
+                    <br>
+                    <br>
+                    Por tanto, cualquier sistema lógico basado en la lógica proposicional es decidible y en un número finito de pasos se puede determinar la verdad o falsedad semántica de una proposición. Esto hace que la lógica proposicional sea completa y con una semántica muy sencilla.
+                </p>
+                <center>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MrmZQxkBy00?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </center>
+            </div> <!--END JUMBOTRON-->
+          </div>
+          <p class="top-space"></p>
+          <h3 class="display-5" >Características</h3>
+          <ul class="fs-4">
+            <li>Es también conocida con el nombre de lógica de enunciados y lógica de las funciones de verdad.</li>
+            <li>Se considera como la rama más antigua de la lógica matemática.</li>
+            <li>Estudia los diferentes métodos de relaciones que se presentan entre los conectores lógicos y los enlaces.</li>
+            <li>Es una ciencia que admite el razonamiento por medio de un instrumento que se encarga de evaluar primeramente los problemas simples y luego los más complejos.</li>
+            <li>Se considera como un tipo de lenguaje simbólico que estudian los razonamientos del lenguaje natural.</li>
+            <li>Cuenta con un alfabeto, una sintaxis y una semántica</li>
+            <li>Solamente traduce el mensaje simbólico que se encuentra en las oraciones con un lenguaje natural y en un sentido completo.</li>
+            <li>Los enunciados que forman parte de la lógica proposicional deberán ser verdaderos o falsos.</li>
+          </ul>
+          <p class="top-space"></p>
+          <h3 class="display-5" >Historia</h3>
+          <p class="fs-4">
+            La historia y la evolución de todos los aspectos relacionados con la lógica se encuentran intrínsecamente unidos a la evolución intelectual del hombre pues al ser una ciencia del razonamiento representa al mismo tiempo la historia del ser humano. Podemos decide entonces que la lógica nació desde el momento en que el hombre tuvo que pensar para hacerle frente a la naturaleza y así poder sobrevivir.
+          </p>
+          <p class="fs-4">
+            Se considera que la lógica proposicional había ya sido pensada por los filósofos de la antigüedad pero fue desarrollada como un tipo de lógica formal gracias a Chrysippus, en el siglo III a.C. Posteriormente, logró ser ampliada y mejorada gracias a Stoics. En ese momento, fue una lógica que se concentró principalmente en las proposiciones pero poco a poco fue avanzando y mejorando incluyendo los términos.
+            <br>
+            La lógica proposicional mejoró notablemente cuando también se mezcló con la lógica simbólica, esto gracias a Gottfried Leibniz, reconocido matemático del siglo XVI/XVIII.
+          </p>
+        </div>
+      </section>  
+
+    <!-- Botón para desplegar subtemas-->
+    <p class="top-space"></p>
+    <div class="despegable" id="botonDesp">
+        <button class="boton">Ver Sub temas</button>
+        <div class="links">
+            <a href="./LMatematica.html">Lógica Matemática</a>
+            <a href="./Proposiciones.html">Proposiciones</a>
+            <a href="./TProposiciones.html">Tipos de proposiciones</a>
+            <a href="./OLogicos.html">Operadores Lógicos</a>
+            <a href="./DValidez.html">Demostración de Validez (Tabla de verdad)</a>
+            <a href="./DVRAbsurdo.html">Demostración de Validez (Reducción al Absurdo)</a>
+            <a href="./Falacias.html">Falacias</a>
+        </div>
+    </div>
+
+    <p id="destino1"></p>
+    <p class="top-space"></p>
+    <br>
+    <h1 id="titulo">Deducción natural</h1>
+
+    <p class="top-space"></p>
+    <section class="container">
+        <div class="col">
+            <div class="p-5 bg-dark h-100 text-white rounded-5">
+                <h1 class="display-5 fw-bold">Deducción natural</h1>
+                <p class="fs-4">
+                    La deducción natural es un sistema de derivación destinado a reflejar el razonamiento real (especialmente el tipo de razonamiento regido empleado por los matemáticos). El razonamiento real procede por una serie de patrones “naturales”. Por ejemplo, la prueba por casos nos permite establecer una conclusión sobre la base de una premisa disyuntiva, estableciendo que la conclusión se deriva de cualquiera de los disjuntos. La prueba indirecta nos permite establecer una conclusión demostrando que su negación conduce a una contradicción.
+                </p>
+                <p class="fs-4">
+                    La prueba condicional establece una pretensión condicional “si... entonces...” demostrando que el consecuente se desprende del antecedente. La deducción natural es una formalización de algunas de estas inferencias naturales. Cada una de las conectivas lógicas y cuantificadores viene con dos reglas, una regla de introducción y una de eliminación, y cada una de ellas corresponde a uno de esos patrones de inferencia natural. Por ejemplo, \Intro\lif corresponde a prueba condicional, y \Elimv a prueba por casos. Una regla particularmente simple es la \Elim∧ que permite la inferencia de A∧B a A (o B).
+                </p>
+                <br>
+                <p style="color: dodgerblue" class="fs-4">Consejos para aplicarlo</p>
+                <ul class="fs-4">
+                    <li>Observa detenidamente cómo está compuesta la conclusión, cuántas proposiciones simples tiene, cuál es su conectiva principal</li>
+                    <li>Observa detenidamente las premisas, determina qué elementos tienen en común  con la conclusión, cuáles son sus conectivas principales</li>
+                    <li>Tomando como base la conclusión comienza a elaborar una estrategia que te permita llegar a ella.</li>
+                    <li>Una sugerencia es comenzar asociando las proposiciones simples con las compuestas, por ejemplo si tengo p en una línea y p ⊃ q en otra, sé que puedo aplicar la regla de MPP.</li>
+                    <li>Cuando me encuentro con elementos que no están, sé que puedo aplicar la regla de adición, que me permite agregar cualquier elemento que necesite</li>
+                    <li>Cuando tengo fórmulas en dos líneas separadas y las requiero unidas, sé que puedo aplicar la regla CONJ</li>
+                </ul>
+                <p style="color: dodgerblue" class="fs-4">Ejemplo</p>
+                <p class="fs-4"><em>Si está lloviendo y Ana no trae su sombrilla, se mojará. Ana no está mojada.
+                    Está lloviendo. <b> Por lo tanto </b>, Ana trae su sombrilla</em></p>
+                <p class="fs-4">
+                    Este argumento también es válido y, de hecho, tiene la misma estructura que el del ejemplo anterior. Solo hemos remplazado algunos enunciados por otros:
+                    <br>                    
+                    <center><img src="../img/logica8.jpg" alt=""></center>
+                </p>
+                <p style="color: dodgerblue" class="fs-4">Enunciados declarativos</p>
+                <p class="fs-4">
+                    Para poder argumentar de forma rigurosa, necesitamos desarrollar un lenguaje en el cual podamos expresar nuestros enunciados resaltanto su esturctura lógica. Comenzaremos por el lenguaje de la lógica proposicional. Este lenguaje está basado en <b>proposiciones</b> o <b>enunciado declarativos</b> que no puede, en principio, argumentar que son verdaderos o falsos.
+                </p>
+                <p style="color: dodgerblue" class="fs-4">¿Qué es una deducción? (Ejemplo)</p>
+                <ul class="fs-4">
+                    <li>Supongamos que A es inocente</li>
+                    <ul>
+                        <li>Dado que C nunca trabaja sin A, si A es inocente, C debe ser también inocente</li>
+                        <li>Dado que el Criminal huyó en coche y que B no sabe conducir, B no puedo cometer el robo solo: </li>
+                        <ul>
+                            <li>Tuvo que ir con A o con C. Así que A y C son inocentes, B también es inocente</li>
+                        </ul>
+                        <li>Así que A es inocente, también lo son B y C</li>
+                        <li>Pero sabemos que al menos uno es culpable</li>
+                    </ul>
+                    <li>Por lo tanto, no puede ser que A sea inocente</li>
+                </ul>
+                <center>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KmrkAUpdWGw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </center>
+            </div>
+        </div><!--END SECOND JUMBOTRON-->
+    </section>
+
+    <!-- Botón para desplegar subtemas-->
+    <p class="top-space"></p>
+    <div class="despegable" id="botonDesp">
+        <button class="boton">Ver Sub temas</button>
+        <div class="links">
+            <a href="./RIngerencia.html">Reglas de Inferencia</a>
+            <a href="./RRemplazo.html">Reglas de reemplazo</a>
+            <a href="./MCalculo.html">Método de cálculo por D.N.</a>
+            <a href="./ILogica.html">Invalidez lógica</a>
+            <a href="./ImLogica.html">Implicación lógica</a>
+            <a href="./ELogica.html">Equivalencia lógica</a>
+        </div>
+    </div>
+
+    <!--Botón para ir arriba-->
+    <p class="top-space"></p>
+    <p class="top-space"></p>
+    <center>
+        <p><a href="#top" id="arriba">Ir arriba</a></p>
+        <br>
+        <p><a href="indexlogica.html" id="arriba">Regresar</a></p>
+    </center>
+    <!--Fin del botón de ir arriba-->      
+
+    <!--El footer siempre deberá estar hasta abajo-->
+    <!--Inicio del footer-->
+    <p class="top-space"></p>
+    <footer id="container-footer">
+        <div class="container">
+            <div class="row" id="row-footer">
+                <center><h3 id="color-footer">Datos del grupo</h3></center>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: David Giovanni García Yoc </p>
+                    <p id="text-p">Carnet: 5090-23-1554</p>
+                    <p id="text-p">correo: dgarciay5@miumg.edu.gt</p>
+                    <center><img src="../img/david.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Yordy Misael Carreto López </p>
+                    <p id="text-p">Carnet: 5090-23-2903</p>
+                    <p id="text-p">correo: ycarretol1@miumg.edu.gt</p>
+                    <center><img src="../img/yordy.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Diego Andrés Ardón Morales </p>
+                    <p id="text-p">Carnet: 5090-23-3728</p>
+                    <p id="text-p">correo: dardonm@miumg.edu.gt</p>
+                    <center><img src="../img/diego.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Jeferson Alejandro Ailón Aguilar </p>
+                    <p id="text-p">Carnet: 5090-23-1070</p>
+                    <p id="text-p">correo: jailona2@miumg.edu.gt</p>
+                    <center><img src="../img/alejandro.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+                <div class="col-md-2">
+                    <p id="text-p">Nombre: Dylan Efraín Reyes Barrera </p>
+                    <p id="text-p">Carnet: 5090-23-1228</p>
+                    <p id="text-p">correo: dreyesb7@miumg.edu.gt</p>
+                    <center><img src="../img/dylan.jpg" alt="Yordy" id="foto-yordy" width="150" height="150"></center>
+                </div>
+            </div>
+            <center>
+                <br>
+            <div class="col-md-3" >
+                <a href="https://umg.edu.gt/?from=edurank.org" target="_blank"><img src="../img/logoumg.webp" alt="Universidad Mariano Gálvez"></a>
+            </div>  
+            </center>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="../js/bootstrap.bundle.min.js">
+</body>
+</html>
